@@ -30,17 +30,17 @@ input {
   font-size: 15px;
 }
 
-.closepopup {
+/*.close-form {
   position: absolute;
   top: 0;
   right: 10px;
   font-size: 35px;
   transform: rotate(45deg);
   cursor: pointer;
-}
+}*/
 
-.popup h1 {
-  font-size: 20px;
+.form h1 {
+  font-size: 2em;
   font-family: sans-serif;
 }
 
