@@ -16,8 +16,15 @@
          <h1>Your Name in Kanji</h1>
          <img src="https://1.bp.blogspot.com/-USUaGMLtJAg/XhwqrId_9vI/AAAAAAABXCw/oOD6fHg5g7AtN70K38Q_gmixYcjNxqg2QCNcBGAsYHQ/s450/shodou_mizufude.png" alt="write" width="200px">
          <form>
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name">
+              <label for="first-name">Your first name</label>
+              <input type="text" name="first-name" id="first-name">
+              <p>How complex do you want your kanji to be?</p>
+              <label for="easy">1-15 strokes</label>
+              <input type="radio" name="strokes" id="easy" value="easy">
+              <label for="hard">15+ strokes.</label>
+              <input type="radio" name="strokes" id="hard" value="hard">
+              <label for="mix">Any combination of strokes</label>
+              <input type="radio" name="strokes" id="mix" value="mix">
               <button type="submit">Submit</button>
                <!-- <input type="submit" value="Submit"> -->
          </form>
