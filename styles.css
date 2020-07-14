@@ -51,12 +51,24 @@ input {
 }
 
 #a-g {
-  border: 2px black solid;
+  border: 2px black dotted;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
 }
 
-.button {
+#h-n {
+  border: 2px black dotted;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#p-w {
+  border: 2px black dotted;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*.button {
   background-color: yellow;
   color: black;
   text-decoration: none;
@@ -71,4 +83,9 @@ input {
 .button:hover {
   background-color: red;
   color: white;
+} */
+
+textarea {
+  padding: 10px;
+  border-radius: 10px;
 }
