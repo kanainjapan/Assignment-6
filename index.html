@@ -5,61 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <title>Kanji Name Maker</title>
-  </head>
+ </head>
 
   <body>
     <h1>Your Name in Kanji</h1>
-  </body>
+ </body>
 
   <div class="form">
-    <div class="form-content">
+     <div class="form-content">
          <!-- <div class="close-form">+</div> -->
         <h1>Fill in all the fields. Once you finish, the kanji name generator will come back with some potential names you might like!</h1>
          <img src="https://1.bp.blogspot.com/-USUaGMLtJAg/XhwqrId_9vI/AAAAAAABXCw/oOD6fHg5g7AtN70K38Q_gmixYcjNxqg2QCNcBGAsYHQ/s450/shodou_mizufude.png" alt="write" width="200px">
          <form>
+
            <div class="first-name">
              <label for="first-name">First name</label>
              <input type="text" name="first-name" id="first-name">
            </div>
-           <div class="values">
-             <p>Check off everything that is important to you.</p>
+
+          <div class="values">
+             <p>Check off everything that is meaningful to you.</p>
              <label for="love">Love</label>
-             <input type="checkbox" name="love" value="love">
+              <input type="checkbox" name="love" value="love">
              <label for="friends">Friends</label>
-             <input type="checkbox" name="friends" value="friends">
+              <input type="checkbox" name="friends" value="friends">
              <label for="family">Family</label>
-             <input type="checkbox" name="family" value="family">
+              <input type="checkbox" name="family" value="family">
              <label for="nature">Nature</label>
-             <input type="checkbox" name="nature" value="nature">
+              <input type="checkbox" name="nature" value="nature">
              <label for="power">Power</label>
-             <input type="checkbox" name="power" value="power">
+              <input type="checkbox" name="power" value="power">
              <label for="knowledge">Knowledge</label>
-             <input type="checkbox" name="knowledge" value="knowledge">
-          <div class="likes"   
-           </div>
-           <div class="stroke-number">
-             <p>How many strokes should each kanji be?</p>
-             <label for="easy">Less than or equal to 10</label>
-             <input type="radio" name="strokes" id="easy" value="easy">
-             <label for="hard">More than 10</label>
-             <input type="radio" name="strokes" id="hard" value="hard">
-             <label for="mix">Any combination is fine</label>
-             <input type="radio" name="strokes" id="mix" value="mix">
-           </div>
-           <div class="preferences">
-             <label for="preferences">Write down any......</label>
-             <textarea id="preferences" name="preferences" rows="5" cols="50">
-               If possible, I would like to avoid having numbers in my name.
+              <input type="checkbox" name="knowledge" value="knowledge">
+             <label for="growth">Growth</label>
+              <input type="checkbox" name="growth" value="growth">
+             <label for="truth">Truth</label>
+              <input type="checkbox" name="truth" value="truth">
+             <label for="beauty">Beauty</label>
+              <input type="checkbox" name="beauty" value="beauty">
+             <label for="benevolence">Benelovence</label>
+              <<input type="checkbox" name="benevolence" value="benevolence">  
+          </div>
+
+         <div class="stroke-number">
+            <p>How many strokes should each kanji be?</p>
+            <label for="easy">Less than or equal to 10</label>
+            <input type="radio" name="strokes" id="easy" value="easy">
+            <label for="hard">More than 10</label>
+            <input type="radio" name="strokes" id="hard" value="hard">
+            <label for="mix">Any combination is fine</label>
+            <input type="radio" name="strokes" id="mix" value="mix">
+          </div>
+
+           <div class="requests">
+             <label for="requests">If you have any particular requests regarding the kanji, write them down here.</label>
+             <textarea id="requests" name="requests" rows="5" cols="50">
+               Example: If possible, I would like to avoid having numbers in my name. I also want the character for "flower".
                </textarea>
-           </div>
+          </div>
+
            <button type="submit">Submit</button>
-         </form>
+        </form>
 
-    </div>
-  </div>
+     </div>
+   </div>
 
-  <script src="test.js">
+ <script src="test.js">
 
-  </script>
-
+ </script>
 </html>
