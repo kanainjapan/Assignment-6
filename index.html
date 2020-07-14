@@ -22,7 +22,7 @@
              <input type="text" name="first-name" id="first-name">
            </div>
            <div class="values">
-             <p>What do you value? Check off everything that is important to you.</p>
+             <p>Check off everything that is important to you.</p>
              <label for="love">Love</label>
              <input type="checkbox" name="love" value="love">
              <label for="friends">Friends</label>
@@ -31,6 +31,8 @@
              <input type="checkbox" name="family" value="family">
              <label for="nature">Nature</label>
              <input type="checkbox" name="nature" value="nature">
+             <label for="power">Power</label>
+             <input type="checkbox" name="power" value="power">
            </div>
            <div class="stroke-number">
              <p>How many strokes should each kanji be?</p>
@@ -40,10 +42,14 @@
              <input type="radio" name="strokes" id="hard" value="hard">
              <label for="mix">Any combination is fine</label>
              <input type="radio" name="strokes" id="mix" value="mix">
-             <button type="submit">Submit</button>
            </div>
-
-               <!-- <input type="submit" value="Submit"> -->
+           <div class="preferences">
+             <label for="preferences">Write down any......</label>
+             <textarea id="preferences" name="preferences" rows="5" cols="50">
+               If possible, I would like to avoid having numbers in my name.
+               </textarea>
+           </div>
+           <button type="submit">Submit</button>
          </form>
 
     </div>
