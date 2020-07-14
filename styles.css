@@ -45,6 +45,17 @@ input {
   font-size: 20px;
 }
 
+.values {
+  display: flex;
+  flex-direction: row;
+}
+
+#a-g {
+  border: 2px black solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
 .button {
   background-color: yellow;
   color: black;
