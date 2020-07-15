@@ -1,5 +1,6 @@
 #header {
   border: black solid 15px;
+  background-color: rgba(255,255,255,0.85);
 }
 
 h1 {
@@ -19,9 +20,10 @@ body {
 }
 
 .foreground {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form {
@@ -41,8 +43,6 @@ body {
   background-color: white;
   border-radius: 5px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 70px;
   padding-left: 30px;
   padding-right: 30px;
   position: relative;
@@ -52,10 +52,8 @@ body {
 
 .close-form {
   position: absolute;
-  top: 0;
-  right: 10px;
-  font-size: 35px;
-  transform: rotate(45deg);
+  top: -30px;
+  right: 20px;
   cursor: pointer;
 }
 
