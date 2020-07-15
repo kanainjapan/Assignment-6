@@ -1,7 +1,13 @@
+h1 {
+  font-family: cursive;
+  top: 0;
+  text-align: center;
+}
+
 .form {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   display: flex;
@@ -11,9 +17,9 @@
 
 .form-content {
   width: 500px;
-  height: 300px;
+  height: 450px;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 70px;
@@ -21,51 +27,82 @@
   padding-right: 30px;
   position: relative;
   font-family: sans-serif;
+  overflow: scroll;
 }
 
-input {
-  width: 50%;
-  height: 20px;
-  display: block;
-  margin: 5px auto;
-  font-size: 15px;
-  border-radius: 10px;
-}
-
-/*.close-form {
+.close-form {
   position: absolute;
   top: 0;
   right: 10px;
   font-size: 35px;
   transform: rotate(45deg);
   cursor: pointer;
-}*/
-
-.form h1 {
-  font-size: 20px;
 }
+
+h2 {
+  font-family: cursive;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.form img {
+  margin-top: 50px;
+}
+
+.step-one {
+  margin-bottom: 50px;
+}
+
+.step-two {
+  margin-bottom: 50px;
+}
+
+.step-three {
+  margin-bottom: 50px;
+}
+
+.step-one input {
+  padding-left: 150px;
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/*input {
+  width: 50%;
+  height: 20px;
+  display: block;
+  margin: 5px auto;
+  font-size: 15px;
+  border-radius: 10px;
+}*/
 
 .values {
   display: flex;
   flex-direction: row;
+  text-align: left;
 }
 
 #a-g {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 30px;
+  margin: 0 10px;
 }
 
 #h-n {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 30px;
+  margin: 0 10px;
 }
 
 #p-w {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 30px;
+  margin: 0 10px;
 }
 
 /*.button {
@@ -88,4 +125,20 @@ input {
 textarea {
   padding: 10px;
   border-radius: 10px;
+  margin-top: 10px;
+}
+
+button {
+  font-size: 20px;
+  font-family: cursive;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  border: lightskyblue solid 2px;
+  transition-duration: 0.4s;
+  padding: 4px 6px;
+  margin-top: 40px;
+}
+
+button:hover {
+  border: black solid 2px;
 }
