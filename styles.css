@@ -1,6 +1,16 @@
+#header {
+  border: black solid 15px;
+}
+
 h1 {
   font-family: cursive;
+  font-size: 50px;
   top: 0;
+  text-align: center;
+}
+
+body {
+  position: relative;
   text-align: center;
 }
 
@@ -87,21 +97,21 @@ h2 {
 #a-g {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 0 10px;
 }
 
 #h-n {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 0 10px;
 }
 
 #p-w {
   border: 2px black dotted;
   border-radius: 10px;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 0 10px;
 }
 
@@ -129,13 +139,13 @@ textarea {
 }
 
 button {
-  font-size: 20px;
+  font-size: 25px;
   font-family: cursive;
   border-radius: 10px;
   background-color: lightskyblue;
   border: lightskyblue solid 2px;
   transition-duration: 0.4s;
-  padding: 4px 6px;
+  padding: 6px 12px;
   margin-top: 40px;
 }
 
